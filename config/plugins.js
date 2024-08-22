@@ -1,8 +1,8 @@
 module.exports = ({env}) => ({
-  'dashboard': {
-    enabled: false,
-    resolve: './src/plugins/dashboard'
-  },
+  // 'dashboard': {
+  //   enabled: true,
+  //   resolve: './src/plugins/dashboard'
+  // },
 //  sentry: {
 //    enabled: true,
 //    config: {
