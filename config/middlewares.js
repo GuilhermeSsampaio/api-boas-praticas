@@ -66,6 +66,7 @@ module.exports = [
   //       keepHeaderOnError: true,
   //   },
   // },
+  "strapi::cors",
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
