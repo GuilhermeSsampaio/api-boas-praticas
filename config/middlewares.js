@@ -73,6 +73,6 @@ module.exports = [
   "strapi::session",
   "strapi::favicon",
   "strapi::public",
-  { resolve: "./src/middlewares/redirect" },
+  // { resolve: "./src/middlewares/redirect" },
 
 ];
