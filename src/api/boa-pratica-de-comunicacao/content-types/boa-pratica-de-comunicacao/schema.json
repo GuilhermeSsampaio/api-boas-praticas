@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boa_pratica_de_comunicacaos",
+  "info": {
+    "singularName": "boa-pratica-de-comunicacao",
+    "pluralName": "boa-pratica-de-comunicacaos",
+    "displayName": "Boa prática de comunicação"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "richtext"
+    },
+    "subnivel": {
+      "type": "dynamiczone",
+      "components": [
+        "components.conteudo-subcapitulo"
+      ]
+    }
+  }
+}
