@@ -57,15 +57,15 @@ module.exports = [
       },
     },
   },
-  {
-   name: "strapi::cors",
-   config: {
-	   origin: ["https://tecnofam-strapi.a.cnpgc.embrapa.br","tecnofam-strapi.a.cnpgc.embrapa.br","tecnofam-minioapi.a.cnpgc.embrapa.br", "io.cnpgc.embrapa.br", "io.cnpgc.embrapa.br:49168","http://io.cnpgc.embrapa.br", "http://io.cnpgc.embrapa.br:49168","http://localhost:1337", "https://tecnofam-strapi.cpao.embrapa.br","https://minio:9000","http://minio:9000/","minio","https://tecnofamapp.cpao.embrapa.br"],
-        methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
-        headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
-        keepHeaderOnError: true,
-    },
-  },
+  // {
+  //  name: "strapi::cors",
+  //  config: {
+	//    origin: ["https://tecnofam-strapi.a.cnpgc.embrapa.br","tecnofam-strapi.a.cnpgc.embrapa.br","tecnofam-minioapi.a.cnpgc.embrapa.br", "io.cnpgc.embrapa.br", "io.cnpgc.embrapa.br:49168","http://io.cnpgc.embrapa.br", "http://io.cnpgc.embrapa.br:49168","http://localhost:1337", "https://tecnofam-strapi.cpao.embrapa.br","https://minio:9000","http://minio:9000/","minio","https://tecnofamapp.cpao.embrapa.br"],
+  //       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
+  //       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
+  //       keepHeaderOnError: true,
+  //   },
+  // },
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
